@@ -109,10 +109,10 @@ const Navbar = () => {
               </a>
             ))}
 
-          {siteConfig.email && (
-            <a href={siteConfig.email} className="flex items-center space-x-2 hover:opacity-80 dark:text-white">
-              <FontAwesomeIcon icon={['far', 'envelope']} />
-              <span className="hidden text-sm font-medium md:inline-block">{t('Email')}</span>
+          {siteConfig.Discord && (
+            <a href={siteConfig.Discord} className="flex items-center space-x-2 hover:opacity-80 dark:text-white">
+              <FontAwesomeIcon icon={['fab', 'discord']} />
+              <span className="hidden text-sm font-medium md:inline-block">{t('Discord')}</span>
             </a>
           )}
 
